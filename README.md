@@ -23,7 +23,7 @@ Developed by: P.Jeshwanth Kumar
 Registered number: 212223240114
 '''
 num_words=0
-with open('Word.txt','r') as f1:
+with open('file.txt','r') as f1:
     for i in f1:
         word=i.split()
         num_words += len(word)
